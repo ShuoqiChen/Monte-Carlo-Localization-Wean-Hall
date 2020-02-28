@@ -1,0 +1,31 @@
+# Filter params
+num_particles: 500
+adaptive_resampling_flag: False
+map_path: '../data/map/wean.dat'
+data_path: '../data/log/robotdata1.log'
+
+# Sensor model params
+z_max: 8183
+lambda_short: 0.01 #0.0048516 #0.01
+sigma_hit: 250 #368.9176 #250
+
+z_pHit: 1000
+z_pShort: 0.01
+z_pMax: 0.03
+z_pRand: 100000
+
+laser_sensor_offset: 25.0
+ray_step_size: 2
+grid_size: 10
+occ_thrsh: 0.1
+laser_subsample: 30
+
+# Motion model params
+alpha_1: 0.0001
+alpha_2: 0.0001 
+alpha_3: 0.01
+alpha_4: 0.01
+
+# visualization params
+rayCast_vis: False
+map_vis: True
