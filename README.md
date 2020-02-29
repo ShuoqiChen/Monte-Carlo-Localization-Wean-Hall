@@ -11,7 +11,7 @@ For more information on MCL, please refere to RI paper: https://www.ri.cmu.edu/p
 
 ##Demo
 
-### robot egocentric view
+### robot body frame view
 ![](robotmovie1.gif)
 
 ### global position estimation
