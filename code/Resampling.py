@@ -24,11 +24,6 @@ class Resampling:
         param[in] X_bar : [num_particles x 4] sized array containing [x, y, theta, wt] values for all particles
         param[out] X_bar_resampled : [num_particles x 4] sized array containing [x, y, theta, wt] values for resampled set of particles
         """
-
-        """
-        TODO : Add your code here
-
-        """
         # [doc 1]: https://github.com/rlabbe/Kalman-and-Bayesian-Filters-in-Python/blob/master/12-Particle-Filters.ipynb
         # [doc 2]: https://docs.scipy.org/doc/numpy/reference/generated/numpy.searchsorted.html
         # [doc 3]: https://filterpy.readthedocs.io/en/latest/_modules/filterpy/monte_carlo/resampling.html#multinomial_resample
@@ -156,5 +151,5 @@ if __name__ == "__main__":
     results = Test.low_variance_sampler(Test_X_bar)   #  2)
 
     # Print results
-    print(results)
+    # print(results)
 

@@ -12,7 +12,6 @@ class MotionModel:
     def __init__(self, params):
 
         """
-        TODO : Initialize Motion Model parameters here
         """
         self.alpha_1 = params['alpha_1']
         self.alpha_2 = params['alpha_2']
@@ -32,7 +31,6 @@ class MotionModel:
         # x_{t-1} -> x_t0
 
         """
-        TODO : Add your code here
         """
         # [doc 1]: Sebastian Thurn, Probablistic Robotics - p 136
         # [doc 2]: https://docs.scipy.org/doc/numpy-1.15.0/reference/generated/numpy.random.normal.html
