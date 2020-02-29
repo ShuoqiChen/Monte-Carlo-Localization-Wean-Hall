@@ -1,5 +1,5 @@
 # Monte Carlo Localization of Wean Hall
-A simple course project in cooperation with Mosam Dhabi and Sara Misra
+A simple particle filter demo in cooperation with Mosam Dhabi and Sara Misra
 
 **What is Monte Carlo Localization?**
 
